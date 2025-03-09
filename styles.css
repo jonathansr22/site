@@ -8,8 +8,17 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: #e8e8e6;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    height: auto;
+    width: 100px;
+    margin-right: 10px;
 }
 
 .intro {
@@ -17,7 +26,8 @@ header {
     font-size: 30px;
     font-weight: 'bold';
     color: #1A5A86;
-    align-items: 'center';
+    text-align: center;
+    flex-grow: 1;
 }
 
 .img-intro {
